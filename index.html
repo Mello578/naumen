@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang='ru'>
+<head>
+    <meta charset='UTF-8'>
+    <title>Naumen</title>
+    <link rel='stylesheet' href='bootstrap/css/bootstrap.min.css'>
+    <link rel='stylesheet' href='style.css'>
+    <script type='text/javascript' src='jquery.js'></script>
+    <script type='text/javascript' src='bootstrap/js/bootstrap.js'></script>
+</head>
+
+<body>
+<div id='addElement' class='modal fade'>
+    <div class='modal-dialog'>
+        <div class='modal-content'>
+            <div class='modal-body'>
+                <div class='field'>
+                    <label for='FIO'>ФИО*:</label>
+                    <input id='FIO' type='text'>
+                </div>
+                <div class='field'>
+                    <label for='phone'>Телефон*:</label>
+                    <input id='phone' type='text'>
+                </div>
+                <div class='field'>
+                    <label for='email'>Email:</label>
+                    <input id='email' type='text'>
+                </div>
+            </div>
+            <div class='modal-footer'>
+                <button type='button' class='btn btn-default buttonBorder buttonStyle' data-dismiss='modal'>Отмена
+                </button>
+                <button type='button' class='btn btn-default buttonBorder buttonStyle' id="addName">Добавить
+                </button>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+<div class="container">
+    <div class='row topBuffer'>
+        <div class='col-md-offset-2 col-md-8'>
+            <div>
+                <input type='text' placeholder='Фильтр' class='buttonBorder filterStyle table-filters' id="filter">
+                <div style='float: right'>
+                    <button type='button' class='btn btn-default buttonBorder buttonStyle' data-toggle='modal'
+                            data-target='#addElement'>Добавить
+                    </button>
+                </div>
+            </div>
+            <table class='table table-bordered table-striped table-condensed table-hover bufferTable' id="myTable">
+                <thead>
+                <tr class='tableCaption'>
+                    <th><i style='margin-right: 10px' id="glyph0"></i>
+                        ФИО
+                    </th>
+                    <th><i style='margin-right: 10px' id="glyph1"></i>Телефон
+                    </th>
+                    <th><i style='margin-right: 10px' id="glyph2"></i>Email
+                    </th>
+                </tr>
+                </thead>
+                <tbody class="content">
+
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</div>
+<script type='text/javascript' src='js.js'></script>
+</body>
+</html>

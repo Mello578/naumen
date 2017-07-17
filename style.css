@@ -1,0 +1,60 @@
+.topBuffer {
+    margin-top: 90px;
+}
+
+.bufferTable {
+    margin-top: 20px;
+}
+
+.filterStyle {
+    width: 250px;
+}
+
+.buttonBorder {
+    border: 3px solid #494949;
+    height: 30px;
+    padding: inherit;
+
+}
+
+.buttonStyle {
+    border-radius: 10px;
+    font-size: 20px;
+    width: 150px;
+    line-height: 5px;
+}
+
+.tableCaption {
+    background: #ababab;
+}
+
+.field {
+    clear: both;
+    text-align: right;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+label {
+    float: left;
+    padding-right: 10px;
+
+}
+
+.modal-content {
+    float: left;
+    padding: 0px 40px 10px;
+    border: 2px solid #363636;
+    border-radius: 10px;
+}
+
+
+#FIO, #phone, #email {
+    width: 200px;
+    border: 2px solid #494949;
+    height: 25px;
+}
+
+.alertField {
+    box-shadow: 0 0 10px #ff1842;
+}
